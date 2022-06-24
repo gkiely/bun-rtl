@@ -3,9 +3,9 @@ import React from 'react'
 import { render } from '@testing-library/react';
 
 // jsdom
-// import { jsdom } from 'jsdom';
-// const { JSDOM } = jsdom;
-// const dom = new JSDOM('<!doctype html><html><body></body></html>');
+import { jsdom } from 'jsdom';
+const { JSDOM } = jsdom;
+const dom = new JSDOM('<!doctype html><html><body></body></html>');
 
 // happy-dom
 // import { Window } from 'happy-dom';
@@ -17,8 +17,8 @@ import { render } from '@testing-library/react';
 // const dom = parseHTML(`<!doctype html><html lang="en"><head /><body /></html>`);
 
 // Enable dom
-// global.window = dom.window;
-// global.document = dom.document;
+global.window = dom.window;
+global.document = dom.document;
 
 import App from './App';
 
