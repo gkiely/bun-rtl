@@ -2,9 +2,6 @@
   "name": "bun-react",
   "version": "0.0.45",
   "dependencies": {
-    "happy-dom": "^5.3.1",
-    "jsdom": "^20.0.0",
-    "linkedom": "^0.14.12",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
     "web-vitals": "^1.0.1"
@@ -18,6 +15,9 @@
   },
   "devDependencies": {
     "@testing-library/react": "^13.3.0",
+    "happy-dom": "^5.3.1",
+    "jsdom": "^20.0.0",
+    "linkedom": "^0.14.12",
     "react-refresh": "0.10.0",
     "typescript": "latest"
   }
