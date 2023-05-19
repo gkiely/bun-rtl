@@ -1,6 +1,6 @@
-import { describe, it, expect } from 'bun:test';
-import React from 'react'
 import { render } from '@testing-library/react';
+import { describe, expect, it } from 'bun:test';
+import React from 'react';
 
 // jsdom
 import { jsdom } from 'jsdom';

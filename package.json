@@ -2,9 +2,9 @@
   "name": "bun-react",
   "version": "0.0.45",
   "dependencies": {
-    "react": "^18.0.2",
-    "react-dom": "^18.0.2",
-    "web-vitals": "^1.0.1"
+    "react": "latest",
+    "react-dom": "latest",
+    "web-vitals": "latest"
   },
   "scripts": {},
   "eslintConfig": {
@@ -14,11 +14,11 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^13.3.0",
-    "happy-dom": "^5.3.1",
-    "jsdom": "^20.0.0",
-    "linkedom": "^0.14.12",
-    "react-refresh": "0.10.0",
+    "@testing-library/react": "latest",
+    "happy-dom": "^9.19.2",
+    "jsdom": "latest",
+    "linkedom": "latest",
+    "react-refresh": "latest",
     "typescript": "latest"
   }
 }
