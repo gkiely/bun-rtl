@@ -23,15 +23,9 @@ import React from 'react';
 import App from './App';
 
 describe('test', () => {
-  it('should render text', () => {
-    // TODO: render fails due to jsdom error `Cannot find package "vm"`
+  it('should render welcome message', () => {
     render(<App />);    
-    // screen.debug();
-
-    screen.getByText('Welcome to React!');
-
-    // TODO: allow testing via @testing-library/jest-dom
-    // https://www.npmjs.com/package/@testing-library/jest-dom
-    // expect(getByText('Welcome to React!')).toBeInTheDocument();
+    screen.debug();
+    screen.getByText(/Welcome to React!/i);
   })
 })
